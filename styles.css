@@ -46,12 +46,12 @@ header .container {
 }
 
 .nav_links li a:hover{
-    color:#0088a9;
+    color: rgb(119, 0, 255);
 }
 
 button {
    padding: 10px 25px;
-   background-color: rgba(0,126,169,1); 
+   background-color: rgba(79, 0, 169); 
    border: none;
    border-radius: 50px;
    cursor: pointer;
@@ -59,7 +59,7 @@ button {
 }
 
 button:hover {
-    background-color: rgba(0,126,169,0.8); 
+    background-color: rgba(79, 0, 169, 0.5); 
 }
 
 .main-content {
@@ -76,9 +76,40 @@ footer {
     margin-top: auto;
     text-align: left;
     width: 100%;
-   
 }
 
+.accordion-button {
+    background-color: rgb(79, 0, 169);
+    color:white;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.accordion-button:hover {
+    background-color: rgba(79, 0, 169, 0.9);
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion-body {
+    background-color: rgba(79, 0, 169, 0.7);
+    color: white;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: rgba(79, 0, 169);
+    color:white;
+}
+
+.accordion-collapse {
+    background-color: rgba(75, 0, 130, 0.5);
+}
+
+.accordion-button::after {
+    filter: brightness(0) invert(1);
+}
 
 
 
