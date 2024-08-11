@@ -45,7 +45,7 @@ header .container {
     transition: all 0.3s ease 0s;
 }
 
-.nav_links li a:hover{
+.nav_links li a:hover {
     color: rgb(119, 0, 255);
 }
 
@@ -60,6 +60,11 @@ button {
 
 button:hover {
     background-color: rgba(79, 0, 169, 0.5); 
+}
+
+.link-container a:hover {
+    color: rgb(119, 0, 255);
+
 }
 
 .main-content {
@@ -78,11 +83,11 @@ footer {
     width: 100%;
 }
 
+
 .accordion-button {
     background-color: rgb(79, 0, 169);
     color:white;
     border: none;
-    transition: all 0.3s ease;
 }
 
 .accordion-button:hover {
@@ -96,6 +101,7 @@ footer {
 .accordion-body {
     background-color: rgba(79, 0, 169, 0.7);
     color: white;
+    text-align: left;
 }
 
 .accordion-button:not(.collapsed) {
