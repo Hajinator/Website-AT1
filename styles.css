@@ -138,3 +138,42 @@ button:hover {
 .accordion-collapse {
     background-color: rgba(75, 0, 130, 0.5);
 }
+
+/* Styles for mobile devices */
+@media (max-width: 600px) {
+    body {
+        background-size: cover;
+        padding: 0 10px;
+    }
+
+    header .container {
+        padding: 20px 10px;
+    }
+
+    .nav_links {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    button {
+        padding: 8px 20px;
+    }
+
+    .accordion {
+        width: 100%;
+        height: auto;
+    }
+
+    .accordion-body {
+        max-height: 50vh;
+    }
+
+    li, a, button, footer, main {
+        font-size: 14px;
+    }
+
+    footer {
+        font-size: 8px;
+    }
+}
